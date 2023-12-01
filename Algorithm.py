@@ -1,8 +1,10 @@
 from Fasta import read_fasta
 import sys
+from random import randint
 
-base = 91
-mod = 10**100
+
+mod = 2**61 - 1
+base = randint(1, mod)
 
 
 def p_hash(text, base, mod):
