@@ -1,4 +1,4 @@
-from Fasta import read_fasta
+from fasta import read_fasta
 import sys
 from random import randint
 
