@@ -1,6 +1,9 @@
 def read_fasta(path):
     with open(path) as f:
-        lines = f.readlines()
-        sq_name = lines[0]
-        sq = ''.join(lines[1:])
+        sq_name = f.readline()
+        sq = ''
+
+        for line in f:
+            sq += line[:-1]
+
         return sq_name, sq
