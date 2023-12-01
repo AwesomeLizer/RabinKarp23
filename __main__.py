@@ -3,7 +3,7 @@ import sys
 from random import randint
 
 
-mod = 2**61 - 1
+mod = 2**127 - 1
 base = randint(1, mod)
 
 
