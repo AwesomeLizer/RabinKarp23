@@ -7,4 +7,4 @@ $ python3 __main__.py P.fa T.fa
 ```
 P.fa and T.fa are files in fasta format.
 
-The program prints the locus of P in T.
+The program prints all loci of matching P in T.
